@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SnellRoundhand.ttc">
+            <string>SnellRoundhand</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BottomCurverdView" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cjm-VQ-rvH" customClass="BottomCurverdView" customModule="BottomCurverdView">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="150"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sampleCover.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="ml7-eR-xHp">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="150"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Incredible Dev" textAlignment="center" lineBreakMode="clip" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="stT-gL-fts">
+                                        <rect key="frame" x="177.5" y="40" width="187.5" height="90"/>
+                                        <fontDescription key="fontDescription" name="SnellRoundhand" family="Snell Roundhand" pointSize="33"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.88320851330000005" green="0.35268086189999998" blue="0.34430772069999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="stT-gL-fts" secondAttribute="trailing" constant="10" id="10p-L7-5rE"/>
+                                    <constraint firstItem="ml7-eR-xHp" firstAttribute="top" secondItem="cjm-VQ-rvH" secondAttribute="top" id="OIM-t5-hSD"/>
+                                    <constraint firstAttribute="trailing" secondItem="ml7-eR-xHp" secondAttribute="trailing" id="UXz-bG-LTG"/>
+                                    <constraint firstAttribute="height" constant="150" id="bmv-K6-H6a"/>
+                                    <constraint firstAttribute="bottom" secondItem="stT-gL-fts" secondAttribute="bottom" constant="20" id="hrW-sg-6kh"/>
+                                    <constraint firstItem="ml7-eR-xHp" firstAttribute="leading" secondItem="cjm-VQ-rvH" secondAttribute="leading" id="l4q-B4-Z6Q"/>
+                                    <constraint firstAttribute="bottom" secondItem="ml7-eR-xHp" secondAttribute="bottom" id="ojH-Pi-Dc4"/>
+                                    <constraint firstItem="stT-gL-fts" firstAttribute="top" secondItem="cjm-VQ-rvH" secondAttribute="top" constant="40" id="qA2-36-Ihp"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="clip" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.25" translatesAutoresizingMaskIntoConstraints="NO" id="qxw-kF-joE">
+                                <rect key="frame" x="20" y="170" width="335" height="477"/>
+                                <string key="text">Hi,
+
+Warm welcome in curved view sample.
+
+This is a sample page to show the use of Bottom Curved View
+
+- Incredible Dev
+</string>
+                                <fontDescription key="fontDescription" name="SnellRoundhand" family="Snell Roundhand" pointSize="33"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.62428305155687591" green="0.90828255452022655" blue="0.65281256898260842" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="cjm-VQ-rvH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="0rk-mx-RS7"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qxw-kF-joE" secondAttribute="trailing" constant="20" id="2Oh-zk-1kr"/>
+                            <constraint firstItem="qxw-kF-joE" firstAttribute="top" secondItem="cjm-VQ-rvH" secondAttribute="bottom" constant="20" id="O1V-tp-ihq"/>
+                            <constraint firstItem="cjm-VQ-rvH" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="RCx-hQ-6pM"/>
+                            <constraint firstItem="qxw-kF-joE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="VUl-fE-Uca"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="qxw-kF-joE" secondAttribute="bottom" constant="20" id="a3w-c7-sgc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cjm-VQ-rvH" secondAttribute="trailing" id="akf-04-cVk"/>
+                            <constraint firstItem="stT-gL-fts" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.5" id="lo6-sd-9wJ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="sampleCover.jpeg" width="3620" height="1558"/>
+    </resources>
+</document>
