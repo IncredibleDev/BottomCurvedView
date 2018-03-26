@@ -8,7 +8,7 @@ Change the class of your view with my BottomCurverdView.
 For reference see the image Screen "Shot 2018-03-15 at 11.02.49 AM.jpg" in project.
 
 <p align="center">
-<img src="Shot 2018-03-15 at 11.02.49 AM.jpg" style='height: 100%; width: 100%; object-fit: contain'/>
+<img src="BottomCurvedView/Screen Shot 2018-03-14 at 11.57.21 AM.png" style='height: 100%; width: 100%; object-fit: contain'/>
 </p>
 
 All Done now run the project.
