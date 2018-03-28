@@ -5,7 +5,7 @@ To use the BottomCurvedView just drag and drop BottomCurverdView.swift into your
 
 Change the class of your view with my BottomCurverdView.
 
-For reference see the image Screen "Shot 2018-03-15 at 11.02.49 AM.jpg" in project.
+For reference see the image Screen "exampleView.png" in project.
 
 <p align="center">
 <img src="BottomCurvedView/redView.png" style='height: 100%; width: 100%; object-fit: contain'/>
